@@ -18,7 +18,7 @@
         <div class="profile__container grid">
             <div class="profile__data">
                 <div class="profile__border">
-                    <div class="profile perfil">
+                    <div class="profile__perfil">
                         <img src="images/santiago-profile.png" alt="Santiago Adames Photo">
                     </div>
                 </div>
@@ -54,16 +54,51 @@
             </div>
             <div class="profile__buttons">
                 <!-- descarga mi cv -->
-                <a download="" href="pdf/CV Santiago Adames.pdf" class="button">Descarga mi CV <i class="ri-download-2-line"></i></a>
+                <a download="" href="pdf/CV Santiago Adames.pdf" class="button">Descarga mi CV <i
+                        class="ri-download-2-line"></i></a>
                 <div class="profile__buttons-small">
-                    <a href="https://www.instagram.com/santiagonorrea16/" target="_blank" class="button button__small"><i class="ri-instagram-line"></i></a>
-                    <a href="https://www.facebook.com/SantiaGonorrea1605/" target="_blank" class="button button__small"><i class="ri-facebook-box-fill"></i></a>
-                    <a href="https://wa.me/573014506126" target="_blank" class="button button__small"><i class="ri-whatsapp-line"></i></a>
+                    <a href="https://www.instagram.com/santiagonorrea16/" target="_blank"
+                        class="button button__small button__gray"><i class="ri-instagram-line"></i></a>
+                    <a href="https://www.facebook.com/SantiaGonorrea1605/" target="_blank"
+                        class="button button__small button__gray"><i class="ri-facebook-box-fill"></i></a>
+                    <a href="https://wa.me/573014506126" target="_blank" class="button button__small button__gray"><i
+                            class="ri-whatsapp-line"></i></a>
                 </div>
             </div>
         </div>
     </header>
     <!-- FIN DE HEADER -->
+
+    <!-- INICIO DE MAIN -->
+    <main class="main">
+        <section class="filters container">
+            <ul class="filters__content">
+                <button class="filters__button" data-target="#proyectos">Proyectos</button>
+                <button class="filters__button" data-target="#skills">Skills</button>
+            </ul>
+            <div class="filters__sections">
+                <!-- proyectos -->
+                <div class="projects__content grid" data-content id="proyectos">
+                    <article class="projects__card">
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle"></span>
+                                <h3 class="projects__tittle"></h3>
+                                <a href="#" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <!-- skills -->
+                <div class="skills__content grid" data-content id="skills">
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- FIN DE MAIN -->
 </body>
 
 </html>
